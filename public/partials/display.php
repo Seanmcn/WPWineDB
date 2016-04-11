@@ -85,7 +85,7 @@
 
 <h2>Database<a id="popoutTable" class="wineDbPopAction"><i class="fa fa-external-link"></i> Pop-out</a></h2>
 <h4>Search &amp; filter wine data to your needs</h4>
-<div class="alert alert-info" role="alert"><strong>Note: </strong>I recommended that you use
+<div class="alert alert-info" role="alert"><strong>Note: </strong>It's recommended that you use
     <a class="wineDbPopAction">pop-out mode</a> to browse/search the database.
 </div>
 <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" media="all">
