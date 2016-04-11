@@ -58,7 +58,7 @@ var arc = d3.svg.arc()
 // Keep track of the node that is currently being displayed as the root.
 var node;
 
-d3.json("http://winedb.zeuslocker.com/data.json", function (error, root) {
+d3.json("//winedb.zeuslocker.com/data.json", function (error, root) {
     node = root;
 
     var data = svg.datum(root).selectAll("g")
