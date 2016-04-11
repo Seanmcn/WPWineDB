@@ -1,6 +1,6 @@
 jQuery.noConflict();
 jQuery(document).ready(function () {
-    jQuery.getJSON("http://127.0.0.1:8000/data-tables.json", function (json) {
+    jQuery.getJSON("http://winedb.zeuslocker.com/data-tables.json", function (json) {
 
         // DataTable
         jQuery('#wineDataTable').DataTable({
@@ -59,7 +59,7 @@ function format(d) {
         '</table>';
 }
 jQuery('.wineDbPopAction').on('click', function () {
-    jQuery.getJSON("http://127.0.0.1:8000/data-tables.json", function (json) {
+    jQuery.getJSON("http://winedb.zeuslocker.com/data-tables.json", function (json) {
         var box = bootbox.dialog({
             show: false,
             message: '<table id="wineDataTablePopout" class="display responsive no-wrap" cellspacing="0" width="100%"></table>',
